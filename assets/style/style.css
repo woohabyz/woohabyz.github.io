@@ -1,0 +1,28 @@
+.HeroSection{
+    min-height: 60vh;
+    display: grid;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+:root[data-bs-theme="light"] .HeroSection {
+    background: linear-gradient(135deg, rgba(13,119, 253, .15), rgba(108,117, 125, .15));
+    color: var(--bs-emphasis-color);
+}
+
+:root[data-bs-theme="dark"] .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.card img-top {
+    object-fit: cover;
+    border-radius: .75rem;
+}
+
+#contact iframe {
+    width: 100%;
+    border: 0;
+    border-radius: .75rem;
+}
+
+section.section-pad { padding-top: 6rem; padding-bottom: 4rem;}
